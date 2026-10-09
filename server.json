@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/northern-mariana-code",
+  "title": "Northern Mariana Code",
+  "description": "Commonwealth Code of the Northern Mariana Islands (CMC) — CNMI statutes by",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/northern-mariana-code",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-northern-mariana-code",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/northern-mariana-code/mcp"
+    }
+  ]
+}
