@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-northern-mariana-code",
-  "version": "0.1.0",
-  "description": "Commonwealth Code of the Northern Mariana Islands (CMC) — CNMI statutes by",
+  "version": "0.1.1",
+  "description": "Commonwealth Code of the Northern Mariana Islands (CMC) — CNMI statutes by citation (e.g. '6 CMC § 1101') and by topic search. Fleet #2892, one of six jurisdictions (DC + five territories) with no code pack as of 2026-10-09.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b5c0bd687f7bd442b70b7841db32e43f5054226313fc5ce402cf8c2bae096f42",
-    "sourceCommit": "051ee2039fc96224cb5b7358fd69d525bced13a6"
+    "sourceHash": "v1-fd2678a19d04f79f1d91b97234cd64b39d823a932e3d8800223dc2298f5cc0f1",
+    "sourceCommit": "3723e46c6d115bd4a1fd2175e6bf758555e7cb50"
   }
 }
