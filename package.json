@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-northern-mariana-code",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Commonwealth Code of the Northern Mariana Islands (CMC) — CNMI statutes by citation (e.g. '6 CMC § 1101') and by topic search. Fleet #2892, one of six jurisdictions (DC + five territories) with no code pack as of 2026-10-09.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-northern-mariana-code": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "northern-mariana-code"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-northern-mariana-code.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/northern-mariana-code",
   "pipeworx": {
-    "sourceHash": "v1-8a55d5b147a2dadd6db70f19f15dacf3e88ad32f722a50966689c25df737a207",
-    "sourceCommit": "774de7f685a75e02d0b828d24a7b94794102152c"
+    "mode": "gateway",
+    "slug": "northern-mariana-code",
+    "gatewaySlug": "northern-mariana-code",
+    "sourceHash": "v1-dcbcbe52da34992357e20c490a7b3073d139e9a6334762c2d7bae31691c8173c",
+    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
   }
 }
